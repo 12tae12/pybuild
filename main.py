@@ -221,6 +221,7 @@ class AppInstaller(QWidget):
         self.install_button.setEnabled(True)
         self.progress_bar.hide()  # Hide the progress bar on success
         QMessageBox.information(self, "Installation", "Installation completed successfully!")
+        os.execv(sys.argv[0], sys.argv)
 
     def toggle_theme(self):
         self.dark_mode = self.theme_toggle.isChecked()

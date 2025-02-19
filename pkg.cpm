@@ -8,7 +8,6 @@
             "wget https://1t2.pages.dev/pybuild/run.sh",
             "wget https://1t2.pages.dev/pybuild/main.py",
             "chmod +x run.sh",
-            "./run.sh"
         ],
         "description": "Update the main Python script to the latest version."
     },
@@ -20,7 +19,6 @@
             "rm app.txt",
             "wget https://1t2.pages.dev/pybuild/pkg.cpm",
             "chmod +x run.sh",
-            "./run.sh"
         ],
         "description": "Refresh the list of available apps on the Chilly package manager."
     },
