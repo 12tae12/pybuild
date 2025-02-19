@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 PKG_FILE = "pkg.cpm"
 APP_FILE = "app.txt"
-THEME_FILE = "theme.cfg"
+THEME_FILE = ".theme.cfg"
 
 # Utility to convert app.txt to pkg.cpm
 def convert_app_txt_to_pkg_cpm():
