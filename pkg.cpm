@@ -13,8 +13,8 @@
         "name": "update_lists",
         "version": "1.2",
         "commands": [
-            "rm app.txt",
-            "wget https://1t2.pages.dev/pybuild/app.txt",
+            "rm pkg.cpm",
+            "wget https://1t2.pages.dev/pybuild/pkg.cpm",
             "./run.sh"
         ],
         "description": "Refresh the list of available apps on the Chilly package manager."
