@@ -33,6 +33,16 @@
         "description": "Install DVD decryption software."
     },
     {
+        "name": "Luanti",
+        "version": "unknown",
+        "commands": [
+            "sudo add-apt-repository ppa:minetestdevs/stable",
+            "sudo apt-get update",
+            "sudo apt-get install minetest"
+        ],
+        "description": "Refresh the list of available apps on the Chilly package manager."
+    },
+    {
         "name": "Synaptic",
         "version": "apt-gui",
         "commands": [
