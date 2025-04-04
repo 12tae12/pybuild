@@ -347,6 +347,9 @@ if __name__ == "__main__":
         installer = AppInstaller()
         sys.exit(app.exec_())
 # End of the script
+
+# Chilly Package Manager (CPM)
+
 # This script is a simple package manager GUI and CLI for installing applications.
 # It provides a graphical interface for searching, viewing details, and installing applications,
 # as well as a command-line interface for listing, searching, and installing applications.

@@ -37,7 +37,8 @@
         "version": "apt-gui",
         "commands": [
             "sudo apt update",
-            "sudo apt install synaptic"
+            "apt moo",
+            "sudo apt install synaptic -y"
         ],
         "description": "Install Synaptic package manager."
     },
